@@ -30,7 +30,7 @@ function ShowAndHide() {
   <option value="vip1">ลากิจ</option>
   <option value="vip2">ลาป่วย</option>
   <option value="vip3">ลาพักผ่อน</option>
-  <option value="vip4">ลาพักผ่อน</option>
+  <option value="vip4">ลาอื่นๆ</option>
   <option value="outcome">ไปราชการ</option>
   <option value="income">มาช่วยราชการ</option>
 </select> <br>
