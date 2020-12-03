@@ -33,7 +33,7 @@ function ShowAndHide() {
   <option value="outcome">ไปราชการ</option>
   <option value="income">มาช่วยราชการ</option>
 </select> <br>
-  <label for="birthday">วันนี้ - วันที่:</label>
+  <label for="vipday">วันนี้ - วันที่:</label>
   <input type="date" id="vipday" name="vipday">
   <br>
 <select id="typeb">
