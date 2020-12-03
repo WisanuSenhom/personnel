@@ -27,9 +27,10 @@ function ShowAndHide() {
 
 <select id="typea">
   <option value="">--ลา/ไปราชการ--</option>
-  <option value="vip">ลากิจ</option>
-  <option value="vip">ลาป่วย</option>
-  <option value="vip">ลาพักผ่อน</option>
+  <option value="vip1">ลากิจ</option>
+  <option value="vip2">ลาป่วย</option>
+  <option value="vip3">ลาพักผ่อน</option>
+  <option value="vip4">ลาพักผ่อน</option>
   <option value="outcome">ไปราชการ</option>
   <option value="income">มาช่วยราชการ</option>
 </select> <br>
