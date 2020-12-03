@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 <head>
 <title>Page Title</title>
@@ -19,12 +20,30 @@ function ShowAndHide() {
 }
 </script>
 
-<button onclick="ShowAndHide()">Click me</BUTTON>
+<button onclick="ShowAndHide()">เพิ่มเติม</BUTTON>
 
 <div id="SectionName" style="display:none">
 
-Text to be shown and hidden
 
+<select id="typea">
+  <option value="">--ลา/ไปราชการ--</option>
+  <option value="vip">ลากิจ</option>
+  <option value="vip">ลาป่วย</option>
+  <option value="vip">ลาพักผ่อน</option>
+  <option value="outcome">ไปราชการ</option>
+  <option value="income">มาช่วยราชการ</option>
+</select> <br>
+<select id="typeb">
+  <option value="">--มอบ--</option>
+  <option value="tepkanong">เทพคนอง</option>
+  <option value="terapong">ธีระพงษ์</option>
+  <option value="kornwasod">กรณ์วสุตว์</option>
+  <option value="jakkawoot">จักราวุธ</option>
+  <option value="wissanu">วิษณุ</option>
+</select> <br>
+<textarea id="nte" name="nte" rows="2" cols="35"
+placeholder="หมายเหตุ" required="" maxlength="255"  warp="soft">
+</textarea>
 
 </div>
 
